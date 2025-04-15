@@ -22,3 +22,12 @@ O repositório inclui:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+
+## Ebay
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("sijovm/used-cars-data-from-ebay-kleinanzeigen")
+
+print("Path to dataset files:", path)
