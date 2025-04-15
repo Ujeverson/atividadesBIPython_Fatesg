@@ -25,9 +25,9 @@ O repositório inclui:
 
 
 ## Ebay
-import kagglehub
-
-# Download latest version
-path = kagglehub.dataset_download("sijovm/used-cars-data-from-ebay-kleinanzeigen")
-
-print("Path to dataset files:", path)
+      import kagglehub
+      
+      # Download latest version
+      path = kagglehub.dataset_download("sijovm/used-cars-data-from-ebay-kleinanzeigen")
+      
+      print("Path to dataset files:", path)
